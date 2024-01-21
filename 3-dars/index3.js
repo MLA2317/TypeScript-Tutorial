@@ -20,5 +20,26 @@ let j;
 j = "sm"; // small
 j = "md"; // middle
 j = "lg"; // long
-// type aliases
+let s2 = "SM";
+s2 = "MD";
+s2 = "LG";
+let s3 = false;
+s3 = "MD";
+s3 = "SM";
+s3 = false;
+let obj;
+obj = { name: "str" };
+obj = { age: 23 };
+obj = { name: "sqw", age: 12 };
+let obj2;
+obj2 = { name: "Lazizbek", age: 22 };
+let obj3 = { name: "Lazizbek" };
+obj3 = { name: "Siroch", age: 23 };
+// obj3 = {age: 23} // error, reqirement not use name
+if ("age" in obj3) {
+    console.log("Mavjud");
+}
+else {
+    console.log("Mavjud emas");
+}
 //# sourceMappingURL=index3.js.map
